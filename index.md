@@ -30,5 +30,5 @@ Cross-platform application intended to create and edit .torrent and uTorrent .da
 
 <img class="scale" src="icons/wmlogo_16.png">&ensp;Z986009119917&ensp;<img class="scale" src="icons/wmlogo_16.png">&ensp;R131648522366
 
-<img src="icons/ya_money_logo_eng.png">
+<a href="https://money.yandex.ru/to/410013137242898"><img src="icons/ya_money_logo_eng.png"></a>
 
