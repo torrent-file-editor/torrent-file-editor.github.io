@@ -4,12 +4,10 @@ Cross-platform application intended to create and edit .torrent and uTorrent .da
 
 ## Screenshots
 
-<a href="main.png">
-<img style="main.png" alt="Main"/>
-</a>
-<a href="files.png">
-<img style="width:300px" src="files.png" alt="Files"/>
-</a>
+<a href="main.png"><img style="width:300px" src="main.png" alt="Main"/></a>
+<a href="files.png"><img style="width:300px" src="files.png" alt="Files"/></a>
+<a href="tree.png"><img style="width:300px" src="tree.png" alt="Tree"/></a>
+<a href="raw.png"><img style="width:300px" src="raw.png" alt="Raw"/></a>
 
 ## Features
 
