@@ -7,3 +7,14 @@
     width: auto;
     height: 1em;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: orange;
+}
