@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 title: Torrent File Editor
-
 w64_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.14/torrent-file-editor-0.3.14-x64.exe
 w32_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.14/torrent-file-editor-0.3.14-x32.exe
 macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.14/torrent-file-editor-0.3.14.dmg
