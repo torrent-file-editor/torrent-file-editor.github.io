@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Torrent File Editor Changelog</title>
+    <link>https://torrent-file-editor.github.io/appcast/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+      <item>
+        <pubDate>Fri, 12 Apr 2019 01:04:36 +0500</pubDate>
+        <enclosure url="https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.14/torrent-file-editor-0.3.14.dmg" sparkle:version="0.3.14" length="10547173" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCFLxLe/WGB9KZ+TU8syqhUV8xANgIVAIWaI491sW9cedZdDQPHeN/kcj1+" />
+      </item>
+  </channel>
+</rss>
