@@ -6,12 +6,12 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
       <item>
-        <pubDate>Sat, 20 Apr 2019 20:39:22 +0500</pubDate>
-        <enclosure url="https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.14-3-gcbd4ee3-dirty/torrent-file-editor-0.3.14-3-gcbd4ee3-dirty.dmg"
-                   sparkle:version="0.3.14-3-gcbd4ee3-dirty"
-                   length="10547338"
+        <pubDate>Sat, 20 Apr 2019 20:28:00 +0500</pubDate>
+        <enclosure url="https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.dmg"
+                   sparkle:version="0.3.15"
+                   length="10547377"
                    type="application/octet-stream"
-                   sparkle:dsaSignature="MCwCFH/I4Ks9vGGKP9muGGlBg3CNRh49AhQNVHm2PmUcKz+exEIvQFlGFIbH5w==" />
+                   sparkle:dsaSignature="MCwCFC2//pbH/MsiAOMlbUuMKQlSki0zAhRyVS2QbMQsML4ilaumjs7CAllwTQ==" />
       </item>
   </channel>
 </rss>
