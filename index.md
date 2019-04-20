@@ -25,3 +25,10 @@ Cross-platform application intended to create and edit .torrent and uTorrent .da
 - Open files with drag-n-drop.  
 - Remove files from file list with filter.  
 - Command line mode.
+
+## Buy a beer to developer <img class="scale" src="icons/beer.png">
+
+<img class="scale" src="icons/wmlogo_16.png">&ensp;Z986009119917&ensp;<img class="scale" src="icons/wmlogo_16.png">&ensp;R131648522366
+
+<img src="icons/ya_money_logo_eng.png">
+
