@@ -5,3 +5,27 @@ w32_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/dow
 macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.dmg
 sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
 repository_url: https://github.com/torrent-file-editor/torrent-file-editor
+langs:
+  - {country: "sa", humanlang: "Arabic - العربية"}
+  - {country: "bd", humanlang: "Bengali - বাংলা"}
+  - {country: "cn", humanlang: "Simplified Chinese - 简化字"}
+  - {country: "tw", humanlang: "Traditional Chinese - 正體字/繁體字"}
+  - {country: "cz", humanlang: "Czech – Česky"}
+  - {country: "nl", humanlang: "Dutch - Nederlands"}
+  - {country: "us", humanlang: "English - English"}
+  - {country: "fi", humanlang: "Finnish – Suomi"}
+  - {country: "fr", humanlang: "French – Français"}
+  - {country: "de", humanlang: "German – Deutsch"}
+  - {country: "il", humanlang: "Hebrew - עברית‎"}
+  - {country: "hu", humanlang: "Hungarian - Magyar"}
+  - {country: "id", humanlang: "Indonesian – Bahasa Indonesia"}
+  - {country: "it", humanlang: "Italian – Italiano"}
+  - {country: "jp", humanlang: "Japanese - 日本語"}
+  - {country: "kr", humanlang: "Korean - 조선말, 한국어"}
+  - {country: "pl", humanlang: "Polish – Polski"}
+  - {country: "br", humanlang: "Brazilian Portuguese – Português brasileiro"}
+  - {country: "ro", humanlang: "Romanian - Română"}
+  - {country: "ru", humanlang: "Russian - Русский"}
+  - {country: "es", humanlang: "Spanish – Español"}
+  - {country: "tr", humanlang: "Turkish – Türkçe"}
+  - {country: "vn", humanlang: "Vietnamese - Việtnam"}
