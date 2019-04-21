@@ -34,15 +34,19 @@ releases:
   - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x64.exe
     title: Windows x64
     icon: windows
+    os: win64
   - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x32.exe
     title: Windows x32
     icon: windows
+    os: win32
   - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.dmg
     title: macOS
     icon: macos
+    os: macos
   - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
     title: Sources
     icon: linux
+    os: linux
 
 screenshots:
   - main
