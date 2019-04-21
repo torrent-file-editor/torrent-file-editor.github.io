@@ -31,7 +31,9 @@ function onloadfunc()
             if (os) {
                 let el = document.querySelector('header a.btn[os="' + os + '"]');
                 el.setAttribute('href', asset.browser_download_url);
-                el.setAttribute('tooltip', os);
+
+                let tooltip = 'Size ' + (asset.size / (1024 * 1024)) + ' MiB\nDownload count '  + asset.download_count;
+                el.setAttribute('tooltip', tooltip);
             }
         }
     }
