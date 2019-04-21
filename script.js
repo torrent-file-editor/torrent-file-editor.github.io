@@ -61,7 +61,7 @@ function updateToolTip(event)
     if (tooltip.innerHTML) {
         tooltip.style.display = 'block';
         let rect = el.getBoundingClientRect();
-        let emSize = parseFloat(el.getComputedStyle(el.parentElement).fontSize);
+        let emSize = parseFloat(getComputedStyle(el.parentElement).fontSize);
         tooltip.style.top = (rect.bottom + emSize) + 'px';
         tooltip.style.left = rect.left + 'px';
         
