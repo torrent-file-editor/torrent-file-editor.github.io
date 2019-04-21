@@ -61,17 +61,10 @@ function updateToolTip(event)
     if (tooltip.innerHTML) {
         tooltip.style.display = 'block';
         let rect = el.getBoundingClientRect();
-        tooltip.style.top = rect.bottom + 'px';
+        let emSize = parseFloat(el.getComputedStyle(el.parentElement).fontSize);
+        tooltip.style.top = (rect.bottom + emSize) + 'px';
         tooltip.style.left = rect.left + 'px';
-        let right = Number(tooltip.style.left).toInt() + Number(window.getComputedStyle(tooltip, null).getPropertyValue("width")).toInt();
-        if (right > window.pageXOffset + window.innerWidth) {
-            tooltip.style.left = Number(tooltip.style.left).toInt() - (right - (window.pageXOffset + window.innerWidth)) + 'px';
-        }
-
-        let bottom = Number(tooltip.style.top).toInt() + Number(window.getComputedStyle(tooltip, null).getPropertyValue("height")).toInt();
-        if (bottom > window.pageYOffset + window.innerHeight) {
-            tooltip.style.top = rect.top - Number(window.getComputedStyle(tooltip, null).getPropertyValue("height")).toInt() + 'px';
-        }
+        
     }
     else {
         tooltip.style.display = 'none';
