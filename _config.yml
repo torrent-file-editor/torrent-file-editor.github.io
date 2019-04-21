@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Torrent File Editor
-w64_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x64.exe
+w64_url: 
 w32_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x32.exe
 macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.dmg
 sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
@@ -29,3 +29,17 @@ langs:
   - {country: "es", humanlang: "Spanish – Español"}
   - {country: "tr", humanlang: "Turkish – Türkçe"}
   - {country: "vn", humanlang: "Vietnamese - Việtnam"}
+
+releases:
+  - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x64.exe
+    title: Windows x64
+    icon: windows
+  - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15-x32.exe
+    title: Windows x32
+    icon: windows
+  - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.dmg
+    title: macOS
+    icon: macos
+  - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
+    title: Sources
+    icon: linux
