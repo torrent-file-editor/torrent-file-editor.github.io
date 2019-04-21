@@ -13,16 +13,15 @@ function initToolTip()
         tooltip.setAttribute('style', `
 pointer-events: none;
 display: block;
--webkit-text-fill-color: darkblue;
-text-align: left;
-display: none;
-color: white;
-background: darkgrey;
-padding: 10px;
-position: fixed;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
 z-index: 1000;
-box-sizing: border-box;
-border: round;
 `);
         tooltip.id = 'tooltip';
         body.appendChild(tooltip);
