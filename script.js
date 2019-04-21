@@ -13,8 +13,8 @@ function initToolTip()
         tooltip.setAttribute('style', `
 pointer-events: none;
 display: block;
-background-color: black;
-color: #fff;
+background-color: #155799;
+color: white;
 text-align: center;
 border-radius: 6px;
 padding: 5px 0;
