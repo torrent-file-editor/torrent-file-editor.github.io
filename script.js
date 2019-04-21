@@ -46,7 +46,7 @@ function updateToolTip(event)
         text = text ? text : ''; // ensure String
         text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
         text = text.replace(/ /g, '&nbsp;');
-        tooltip.innerHTML = text;
+        tooltip.innerHTML = '<p>' + text + '</p>';
     }
     else {
         tooltip.innerHTML = '';
