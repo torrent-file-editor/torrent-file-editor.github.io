@@ -32,7 +32,7 @@ function onloadfunc()
                 let el = document.querySelector('header a.btn[os="' + os + '"]');
                 el.setAttribute('href', asset.browser_download_url);
 
-                let tooltip = 'Size ' + (asset.size / (1024 * 1024)) + ' MiB\nDownload count '  + asset.download_count;
+                let tooltip = 'Size ' + Number((asset.size / (1024 * 1024))).toFixed(2) + ' MiB<br>Download count '  + asset.download_count;
                 el.setAttribute('tooltip', tooltip);
             }
         }
