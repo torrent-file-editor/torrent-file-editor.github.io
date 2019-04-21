@@ -63,8 +63,7 @@ function updateToolTip(event)
         let rect = el.getBoundingClientRect();
         let emSize = parseFloat(getComputedStyle(el.parentElement).fontSize);
         tooltip.style.top = (rect.bottom + emSize / 3) + 'px';
-        tooltip.style.left = rect.left + 'px';
-        
+        tooltip.style.left = (rect.left + rect.width / 2 - tooltip.style.width / 2) + 'px';
     }
     else {
         tooltip.style.display = 'none';
