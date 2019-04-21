@@ -4,9 +4,9 @@ Cross-platform application intended to create and edit .torrent and uTorrent .da
 
 ## Screenshots
 
-{% for screenshot in site.screenshots %}
+{%- for screenshot in site.screenshots -%}
 <a href="{{ screenshot }}.png"><img style="width:300px" src="{{ screenshot }}.png" alt="{{ screenshot }}"/></a>
-{% endfor %}
+{%- endfor -%}
 
 ## Features
 
