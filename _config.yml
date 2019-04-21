@@ -43,3 +43,9 @@ releases:
   - url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
     title: Sources
     icon: linux
+
+screenshots:
+  - main
+  - files
+  - tree
+  - raw
