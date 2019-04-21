@@ -1,0 +1,36 @@
+<h2>Summary</h2>
+<p>Cross-platform application intended to create and edit .torrent and uTorrent .dat files. Replacement for [BEncode Editor](https://sites.google.com/site/ultimasites/bencode-editor) which has modern design and extra features.</p>
+
+<h2>Screenshots</h2>
+<p>
+{% for screenshot in site.screenshots %}
+<a href="{{ screenshot }}.png"><img style="width:300px" src="{{ screenshot }}.png" alt="{{ screenshot }}"/></a>
+{% endfor %}
+</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Create .torrent file from a scratch.</li>
+  <li>Add new files to .torrent file.</li>
+  <li>Removing files from .torrent file.</li>
+  <li>Change files order in .torrent file.</li>
+  <li>Change main .torrent file infomation: name, comment, publisher, url, creation date, trackers and author.</li>
+  <li>Edit data as JSON-format. In this mode non-ASCII symbols not supported.</li>
+  <li>Translated to many languages.</li>
+  <li>Support different encodings.</li>
+  <li>Portable.</li>
+  <li>Edit .torrent file as binary tree.</li>
+  <li>Search and replace in tree.</li>
+  <li>Open files with drag-n-drop.</li>
+  <li>Remove files from file list with filter.</li>
+  <li>Command line mode.</li>
+</ul>
+
+<h2>Translations</h2>
+{% for lang in site.langs %}
+<img class="flag" src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/{{ lang.country }}.png">&ensp;{{ lang.humanlang }}  
+{% endfor %}
+<h2 id="donate">Buy a beer to developer&ensp;<img class="scale" src="icons/beer.png"><h2>
+<p><img class="scale" src="icons/wmlogo_16.png">&ensp;Z986009119917&ensp;<img class="scale" src="icons/wmlogo_16.png">&ensp;R131648522366</p>
+<p><a href="https://money.yandex.ru/to/410013137242898"><img src="icons/ya_money_logo_eng.png"></a></p>
+
