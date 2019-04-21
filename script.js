@@ -62,7 +62,7 @@ function updateToolTip(event)
         tooltip.style.display = 'block';
         let rect = el.getBoundingClientRect();
         let emSize = parseFloat(getComputedStyle(el.parentElement).fontSize);
-        tooltip.style.top = (rect.bottom + emSize) + 'px';
+        tooltip.style.top = (rect.bottom + emSize / 3) + 'px';
         tooltip.style.left = rect.left + 'px';
         
     }
