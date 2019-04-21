@@ -30,7 +30,7 @@ function onloadfunc()
 
             if (os) {
                 let el = document.querySelector('header a.btn[os="' + os + '"]');
-                el.setAttribute('tooltip', id);
+                el.setAttribute('tooltip', os);
             }
         }
     }
