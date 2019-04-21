@@ -8,25 +8,6 @@ function initToolTip()
     }
 
     let tooltip = document.querySelector('#tooltip');
-    if (!tooltip) {
-        tooltip = document.createElement('span');
-        tooltip.setAttribute('style', `
-pointer-events: none;
-display: block;
-background-color: #155799;
-color: white;
-text-align: center;
-border-radius: 6px;
-padding: 0 1em 0 1em;
-marging: 1em 0 1em 0;
-
-/* Position the tooltip */
-position: absolute;
-z-index: 1000;
-`);
-        tooltip.id = 'tooltip';
-        body.appendChild(tooltip);
-    }
 
     body.removeEventListener('mousemove', this.updateToolTip);
     body.addEventListener('mousemove', this.updateToolTip);
