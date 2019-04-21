@@ -17,27 +17,3 @@
     height: auto;
     border: thin solid lightgray
 }
-
-[tooltip]:before {
-    /* needed - do not touch */
-    content: attr(tooltip);
-    position: absolute;
-    opacity: 0;
-    
-    /* customizable */
-    transition: all 0.15s ease;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px 1px silver;    
-}
-
-[tooltip]:hover:before {
-    /* needed - do not touch */
-    opacity: 1;
-    
-    /* customizable */
-    background: darkgrey;
-    margin-top: -50px;
-    margin-left: 20px;    
-}

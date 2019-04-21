@@ -1,3 +1,79 @@
+// Add tooltip  element on page
+// Tooltip will be showed when user (or bot) move mouse under element with dmtooltip attribute
+function initToolTip()
+{
+    let body = document.querySelector('body');
+    if (!body) {
+        return;
+    }
+
+    let tooltip = document.querySelector('#tooltip');
+    if (!tooltip) {
+        tooltip = document.createElement('span');
+        tooltip.setAttribute('style', `
+pointer-events: none;
+display: block;
+-webkit-text-fill-color: darkblue;
+font: normal normal 400 12px monospace;
+text-align: left;
+display: none;
+background: #f5f6b4;
+padding: 10px;
+position: fixed;
+z-index: 1000;
+box-sizing: border-box;
+`);
+        tooltip.id = 'tooltip';
+        body.appendChild(tooltip);
+    }
+
+    body.removeEventListener('mousemove', this.updateToolTip);
+    body.addEventListener('mousemove', this.updateToolTip);
+}
+
+// Internal function to actually show or hide tooltip
+// Must not be used at user code
+function updateToolTip(event)
+{
+    let tooltip = document.querySelector('#tooltip');
+    if (!tooltip) {
+        return;
+    }
+
+    let el = event ? event.target : null;
+    if (el) {
+        let text = el.getAttribute('tooltip');
+        text = text ? text : ''; // ensure String
+        text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
+        text = text.replace(/ /g, '&nbsp;');
+        tooltip.innerHTML = text;
+    }
+    else {
+        tooltip.innerHTML = '';
+    }
+
+
+    if (tooltip.innerHTML) {
+        tooltip.style.display = 'block';
+        let rect = el.getBoundingClientRect();
+        tooltip.style.top = rect.bottom + 'px';
+        tooltip.style.left = rect.left + 'px';
+        let right = Number(tooltip.style.left).toInt() + Number(window.getComputedStyle(tooltip, null).getPropertyValue("width")).toInt();
+        if (right > window.pageXOffset + window.innerWidth) {
+            tooltip.style.left = Number(tooltip.style.left).toInt() - (right - (window.pageXOffset + window.innerWidth)) + 'px';
+        }
+
+        let bottom = Number(tooltip.style.top).toInt() + Number(window.getComputedStyle(tooltip, null).getPropertyValue("height")).toInt();
+        if (bottom > window.pageYOffset + window.innerHeight) {
+            tooltip.style.top = rect.top - Number(window.getComputedStyle(tooltip, null).getPropertyValue("height")).toInt() + 'px';
+        }
+    }
+    else {
+        tooltip.style.display = 'none';
+    }
+}
+
+
 function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
@@ -8,6 +84,8 @@ function httpGet(theUrl)
 
 function onloadfunc()
 {
+    initToolTip();
+    
     let map = JSON.parse(httpGet('https://api.github.com/repos/torrent-file-editor/torrent-file-editor/releases/latest'));
 
     if (map) {
