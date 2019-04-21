@@ -14,14 +14,15 @@ function initToolTip()
 pointer-events: none;
 display: block;
 -webkit-text-fill-color: darkblue;
-font: normal normal 400 12px monospace;
 text-align: left;
 display: none;
-background: #f5f6b4;
+color: white;
+background: darkgrey;
 padding: 10px;
 position: fixed;
 z-index: 1000;
 box-sizing: border-box;
+border: round;
 `);
         tooltip.id = 'tooltip';
         body.appendChild(tooltip);
