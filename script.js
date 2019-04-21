@@ -57,10 +57,9 @@ function updateToolTip(event)
         tooltip.innerHTML = '';
     }
 
-
     if (tooltip.innerHTML) {
         tooltip.style.display = 'block';
-        let rect = el.getBoundingClientRect();
+        let rect = el.tagName == 'IMG' ? el.parentElement.getBoundingClientRect() : el.getBoundingClientRect();
         let emSize = parseFloat(getComputedStyle(el.parentElement).fontSize);
         tooltip.style.top = (rect.bottom + emSize / 3) + 'px';
         tooltip.style.left = (rect.left + rect.width / 2 - tooltip.getBoundingClientRect().width / 2) + 'px';
