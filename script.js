@@ -41,11 +41,15 @@ function updateToolTip(event)
     }
 
     let el = event ? event.target : null;
+    let text = '';
     if (el) {
-        let text = el.getAttribute('tooltip');
+        text = el.getAttribute('tooltip');
         text = text ? text : ''; // ensure String
         text = text.replace(/(?:\r\n|\r|\n)/g, '<br>');
         text = text.replace(/ /g, '&nbsp;');
+    }
+
+    if (text) {
         tooltip.innerHTML = '<p>' + text + '</p>';
     }
     else {
