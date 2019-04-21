@@ -17,7 +17,7 @@ background-color: #155799;
 color: white;
 text-align: center;
 border-radius: 6px;
-padding: 1em 1em 1em 1em; 
+padding: 0 1em 0 1em; 
 
 /* Position the tooltip */
 position: absolute;
