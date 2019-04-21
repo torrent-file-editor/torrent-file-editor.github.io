@@ -29,7 +29,7 @@ Cross-platform application intended to create and edit .torrent and uTorrent .da
 ## Translations
 
 {% for lang in site.langs %}
-{{ lang.country }} -- {{ lang.humanlang }}  
+<img class="flag" src="https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/{{ lang.country }}.png">&ensp;{{ lang.humanlang }}  
 {% endfor %}
 
 ## Buy a beer to developer <img class="scale" src="icons/beer.png">
