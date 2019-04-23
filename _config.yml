@@ -6,29 +6,29 @@ macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/d
 sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.15/torrent-file-editor-0.3.15.tar.gz
 repository_url: https://github.com/torrent-file-editor/torrent-file-editor
 langs:
-  - {country: "sa", humanlang: "Arabic - العربية"}
-  - {country: "bd", humanlang: "Bengali - বাংলা"}
-  - {country: "cn", humanlang: "Simplified Chinese - 简化字"}
-  - {country: "tw", humanlang: "Traditional Chinese - 正體字/繁體字"}
-  - {country: "cz", humanlang: "Czech – Česky"}
-  - {country: "nl", humanlang: "Dutch - Nederlands"}
+  - {country: "sa", humanlang: "العربية - Arabic"}
+  - {country: "bd", humanlang: "বাংলা - Bengali"}
+  - {country: "cn", humanlang: "简体中文 - Chinese Simplified"}
+  - {country: "tw", humanlang: "繁體中文 - Chinese Traditional"}
+  - {country: "cz", humanlang: "Čeština - Czech"}
+  - {country: "nl", humanlang: "Nederlands - Dutch"}
   - {country: "us", humanlang: "English - English"}
-  - {country: "fi", humanlang: "Finnish – Suomi"}
-  - {country: "fr", humanlang: "French – Français"}
-  - {country: "de", humanlang: "German – Deutsch"}
-  - {country: "il", humanlang: "Hebrew - עברית‎"}
-  - {country: "hu", humanlang: "Hungarian - Magyar"}
-  - {country: "id", humanlang: "Indonesian – Bahasa Indonesia"}
-  - {country: "it", humanlang: "Italian – Italiano"}
-  - {country: "jp", humanlang: "Japanese - 日本語"}
-  - {country: "kr", humanlang: "Korean - 조선말, 한국어"}
-  - {country: "pl", humanlang: "Polish – Polski"}
-  - {country: "br", humanlang: "Brazilian Portuguese – Português brasileiro"}
-  - {country: "ro", humanlang: "Romanian - Română"}
-  - {country: "ru", humanlang: "Russian - Русский"}
-  - {country: "es", humanlang: "Spanish – Español"}
-  - {country: "tr", humanlang: "Turkish – Türkçe"}
-  - {country: "vn", humanlang: "Vietnamese - Việtnam"}
+  - {country: "fi", humanlang: "Suomi - Finnish"}
+  - {country: "fr", humanlang: "Français - French"}
+  - {country: "de", humanlang: "Deutsch - German"}
+  - {country: "il", humanlang: "עברית‎ - Hebrew"}
+  - {country: "hu", humanlang: "Magyar - Hungarian"}
+  - {country: "id", humanlang: "Indonesia - Indonesian"}
+  - {country: "it", humanlang: "Italiano - Italian"}
+  - {country: "jp", humanlang: "日本語 - Japanese"}
+  - {country: "kr", humanlang: "한국어 - Korean"}
+  - {country: "pl", humanlang: "Polski - Polish"}
+  - {country: "br", humanlang: "Português  (Brasil) - Portuguese (Brazil)"}
+  - {country: "ro", humanlang: "Română - Romanian"}
+  - {country: "ru", humanlang: "Русский - Russian"}
+  - {country: "es", humanlang: "Español - Spanish"}
+  - {country: "tr", humanlang: "Türkçe - Turkish"}
+  - {country: "vn", humanlang: "Tiếng Việt - Vietnamese"}
 
 releases:
   - title: Windows x64
