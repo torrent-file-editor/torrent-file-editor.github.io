@@ -29,7 +29,7 @@ langs:
   - {country: "es", nativelang: "Español", englishlang: "Spanish"}
   - {country: "tr", nativelang: "Türkçe", englishlang: "Turkish"}
   - {country: "vn", nativelang: "Tiếng Việt", englishlang: "Vietnamese"}
-  - {country: "uk", nativelang: "Украї́нська", englishlang: "Ukrainian"}
+  - {country: "ua", nativelang: "Украї́нська", englishlang: "Ukrainian"}
 
 
 releases:
