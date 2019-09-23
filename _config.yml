@@ -28,8 +28,8 @@ langs:
   - {country: "ru", nativelang: "Русский", englishlang: "Russian"}
   - {country: "es", nativelang: "Español", englishlang: "Spanish"}
   - {country: "tr", nativelang: "Türkçe", englishlang: "Turkish"}
-  - {country: "vn", nativelang: "Tiếng Việt", englishlang: "Vietnamese"}
   - {country: "ua", nativelang: "Украї́нська", englishlang: "Ukrainian"}
+  - {country: "vn", nativelang: "Tiếng Việt", englishlang: "Vietnamese"}
 
 
 releases:
