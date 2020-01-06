@@ -6,12 +6,12 @@
     <description>Most recent changes with links to updates.</description>
     <language>en</language>
       <item>
-        <pubDate>Mon, 23 Sep 2019 15:48:13 +0500</pubDate>
-        <enclosure url="https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.16/torrent-file-editor-0.3.16.dmg"
-                   sparkle:version="0.3.16"
-                   length="10600368"
+        <pubDate>Mon, 06 Jan 2020 12:01:28 +0500</pubDate>
+        <enclosure url="https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.17/torrent-file-editor-0.3.17.dmg"
+                   sparkle:version="0.3.17"
+                   length="10600601"
                    type="application/octet-stream"
-                   sparkle:dsaSignature="MC0CFEBUwdxCuw3ikMnuTe14M48h7YyLAhUAlX6HDKTHzjIXCT+DkoDagBzy5Wg=" />
+                   sparkle:dsaSignature="MC0CFAYEac4QfVpEF8GAgS+ue6CMIBdiAhUAogx3APu3Q7nkqYJWHlv1dUorVwg=" />
       </item>
   </channel>
 </rss>
