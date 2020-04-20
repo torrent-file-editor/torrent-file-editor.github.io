@@ -6,6 +6,7 @@ macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/d
 sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.17/torrent-file-editor-0.3.17.tar.gz
 repository_url: https://github.com/torrent-file-editor/torrent-file-editor
 langs:
+  - {country: "za", nativelang: "Afrikaans", englishlang: "Afrikaans"}
   - {country: "sa", nativelang: "العربية", englishlang: "Arabic"}
   - {country: "bd", nativelang: "বাংলা", englishlang: "Bengali"}
   - {country: "cn", nativelang: "简体中文", englishlang: "Chinese Simplified"}
@@ -16,7 +17,7 @@ langs:
   - {country: "fi", nativelang: "Suomi", englishlang: "Finnish"}
   - {country: "fr", nativelang: "Français", englishlang: "French"}
   - {country: "de", nativelang: "Deutsch", englishlang: "German"}
-  - {country: "il", nativelang: "עברית", englishlang: "Hebrew"}
+  - {country: "il", nativelang: "עברית‎", englishlang: "Hebrew"}
   - {country: "hu", nativelang: "Magyar", englishlang: "Hungarian"}
   - {country: "id", nativelang: "Indonesia", englishlang: "Indonesian"}
   - {country: "it", nativelang: "Italiano", englishlang: "Italian"}
@@ -28,9 +29,8 @@ langs:
   - {country: "ru", nativelang: "Русский", englishlang: "Russian"}
   - {country: "es", nativelang: "Español", englishlang: "Spanish"}
   - {country: "tr", nativelang: "Türkçe", englishlang: "Turkish"}
-  - {country: "ua", nativelang: "Украї́нська", englishlang: "Ukrainian"}
   - {country: "vn", nativelang: "Tiếng Việt", englishlang: "Vietnamese"}
-
+  - {country: "ua", nativelang: "Украї́нська", englishlang: "Ukrainian"}
 
 releases:
   - title: Windows x64
