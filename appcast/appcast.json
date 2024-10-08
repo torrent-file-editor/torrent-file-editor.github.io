@@ -1,5 +1,5 @@
 {
-  "version": "0.3.17",
-  "url-win-x32": "https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.17/torrent-file-editor-0.3.17-x32.exe",
-  "url-win-x64": "https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.17/torrent-file-editor-0.3.17-x64.exe"
+  "version": "1.0.0",
+  "url-win-x32": "https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.0/torrent-file-editor-1.0.0-x32.exe",
+  "url-win-x64": "https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.0/torrent-file-editor-1.0.0-x64.exe"
 }
