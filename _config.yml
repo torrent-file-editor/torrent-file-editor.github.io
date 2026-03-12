@@ -1,36 +1,36 @@
 theme: jekyll-theme-cayman
 title: Torrent File Editor
-w64_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.18/torrent-file-editor-0.3.18-x64.exe
-w32_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.18/torrent-file-editor-0.3.18-x32.exe
-macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.18/torrent-file-editor-0.3.18.dmg
-sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v0.3.18/torrent-file-editor-0.3.18.tar.gz
+w64_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.1/torrent-file-editor-1.0.1-x64.exe
+w32_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.1/torrent-file-editor-1.0.1-x32.exe
+macos_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.1/torrent-file-editor-1.0.1.dmg
+sources_url: https://github.com/torrent-file-editor/torrent-file-editor/releases/download/v1.0.1/torrent-file-editor-1.0.1.tar.gz
 repository_url: https://github.com/torrent-file-editor/torrent-file-editor
 langs:
-  - {country: "za", nativelang: "Afrikaans", englishlang: "Afrikaans"}
-  - {country: "sa", nativelang: "العربية", englishlang: "Arabic"}
-  - {country: "bd", nativelang: "বাংলা", englishlang: "Bengali"}
-  - {country: "cn", nativelang: "简体中文", englishlang: "Chinese Simplified"}
-  - {country: "tw", nativelang: "繁體中文", englishlang: "Chinese Traditional"}
-  - {country: "cz", nativelang: "Čeština", englishlang: "Czech"}
-  - {country: "nl", nativelang: "Nederlands", englishlang: "Dutch"}
-  - {country: "us", nativelang: "English", englishlang: "English"}
-  - {country: "fi", nativelang: "Suomi", englishlang: "Finnish"}
-  - {country: "fr", nativelang: "Français", englishlang: "French"}
-  - {country: "de", nativelang: "Deutsch", englishlang: "German"}
-  - {country: "il", nativelang: "עברית‎", englishlang: "Hebrew"}
-  - {country: "hu", nativelang: "Magyar", englishlang: "Hungarian"}
-  - {country: "id", nativelang: "Indonesia", englishlang: "Indonesian"}
-  - {country: "it", nativelang: "Italiano", englishlang: "Italian"}
-  - {country: "jp", nativelang: "日本語", englishlang: "Japanese"}
-  - {country: "kr", nativelang: "한국어", englishlang: "Korean"}
-  - {country: "pl", nativelang: "Polski", englishlang: "Polish"}
-  - {country: "br", nativelang: "Português  (Brasil)", englishlang: "Portuguese (Brazil)"}
-  - {country: "ro", nativelang: "Română", englishlang: "Romanian"}
-  - {country: "ru", nativelang: "Русский", englishlang: "Russian"}
-  - {country: "es", nativelang: "Español", englishlang: "Spanish"}
-  - {country: "tr", nativelang: "Türkçe", englishlang: "Turkish"}
-  - {country: "vn", nativelang: "Tiếng Việt", englishlang: "Vietnamese"}
-  - {country: "ua", nativelang: "Украї́нська", englishlang: "Ukrainian"}
+  - { country: 'za', nativelang: 'Afrikaans', englishlang: 'Afrikaans' }
+  - { country: 'sa', nativelang: 'العربية', englishlang: 'Arabic' }
+  - { country: 'bd', nativelang: 'বাংলা', englishlang: 'Bengali' }
+  - { country: 'cn', nativelang: '简体中文', englishlang: 'Chinese Simplified' }
+  - { country: 'tw', nativelang: '繁體中文', englishlang: 'Chinese Traditional' }
+  - { country: 'cz', nativelang: 'Čeština', englishlang: 'Czech' }
+  - { country: 'nl', nativelang: 'Nederlands', englishlang: 'Dutch' }
+  - { country: 'us', nativelang: 'English', englishlang: 'English' }
+  - { country: 'fi', nativelang: 'Suomi', englishlang: 'Finnish' }
+  - { country: 'fr', nativelang: 'Français', englishlang: 'French' }
+  - { country: 'de', nativelang: 'Deutsch', englishlang: 'German' }
+  - { country: 'il', nativelang: 'עברית‎', englishlang: 'Hebrew' }
+  - { country: 'hu', nativelang: 'Magyar', englishlang: 'Hungarian' }
+  - { country: 'id', nativelang: 'Indonesia', englishlang: 'Indonesian' }
+  - { country: 'it', nativelang: 'Italiano', englishlang: 'Italian' }
+  - { country: 'jp', nativelang: '日本語', englishlang: 'Japanese' }
+  - { country: 'kr', nativelang: '한국어', englishlang: 'Korean' }
+  - { country: 'pl', nativelang: 'Polski', englishlang: 'Polish' }
+  - { country: 'br', nativelang: 'Português  (Brasil)', englishlang: 'Portuguese (Brazil)' }
+  - { country: 'ro', nativelang: 'Română', englishlang: 'Romanian' }
+  - { country: 'ru', nativelang: 'Русский', englishlang: 'Russian' }
+  - { country: 'es', nativelang: 'Español', englishlang: 'Spanish' }
+  - { country: 'tr', nativelang: 'Türkçe', englishlang: 'Turkish' }
+  - { country: 'vn', nativelang: 'Tiếng Việt', englishlang: 'Vietnamese' }
+  - { country: 'ua', nativelang: 'Украї́нська', englishlang: 'Ukrainian' }
 
 releases:
   - title: Windows x64
